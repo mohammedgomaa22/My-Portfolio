@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.49c540f1.css",
+    "main.js": "/My-Portfolio/static/js/main.29be3e1f.js",
+    "static/media/2- ple.PNG": "/My-Portfolio/static/media/2- ple.fb3e8888ec8c907b3bd1.PNG",
+    "static/media/4- boo.PNG": "/My-Portfolio/static/media/4- boo.2636558f8c3d5484a46e.PNG",
+    "static/media/01.jpg": "/My-Portfolio/static/media/01.68040df7eafe35aadafc.jpg",
+    "static/media/10- portfolio.PNG": "/My-Portfolio/static/media/10- portfolio.0f1f5b2f6ed55ffa9fd9.PNG",
+    "static/media/1- le.png": "/My-Portfolio/static/media/1- le.d46116098126e49c1799.png",
+    "static/media/IMG_20210328_173512.jpg": "/My-Portfolio/static/media/IMG_20210328_173512.f1a0fe0b03288bbbf538.jpg",
+    "static/media/IMG_20210328_173512-removebg-preview.png": "/My-Portfolio/static/media/IMG_20210328_173512-removebg-preview.58530f9084df473989c8.png",
+    "static/media/7- dashboard.PNG": "/My-Portfolio/static/media/7- dashboard.2c4fb8c8ccddb2bcb0f1.PNG",
+    "static/media/5- elz.PNG": "/My-Portfolio/static/media/5- elz.048cf166142f19c873dc.PNG",
+    "static/media/CV_MohammedGomaa.rar": "/My-Portfolio/static/media/CV_MohammedGomaa.ac229bf17ec403c38810.rar",
+    "static/media/3- maz.PNG": "/My-Portfolio/static/media/3- maz.8406f62800c824c33977.PNG",
+    "static/media/9- w-challenge.PNG": "/My-Portfolio/static/media/9- w-challenge.ebda846f7e956f569a34.PNG",
+    "static/media/6- note.PNG": "/My-Portfolio/static/media/6- note.013ff05dfd901e863ec1.PNG",
+    "static/media/8- tailwind.PNG": "/My-Portfolio/static/media/8- tailwind.6a4a92ef61a9d1f0b991.PNG",
+    "index.html": "/My-Portfolio/index.html",
+    "main.49c540f1.css.map": "/My-Portfolio/static/css/main.49c540f1.css.map",
+    "main.29be3e1f.js.map": "/My-Portfolio/static/js/main.29be3e1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49c540f1.css",
+    "static/js/main.29be3e1f.js"
+  ]
+}
