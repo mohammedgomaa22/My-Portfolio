@@ -1,10 +1,11 @@
 import "./header.css";
+import CV from "../data/CV_MohammedGomaa.rar";
 // --------------------
 
 const Header = () => {
     return (
         <>
-            <header className="h-screen flex justify-center items-center">
+            <header id="home" className="h-screen flex justify-center items-center">
                 <div className="container mx-auto px-5 h-full relative">
                     <div className="content h-full flex flex-col items-center justify-end">
                         {/* Text ------------------ */}
@@ -17,8 +18,12 @@ const Header = () => {
                             </div>
                             {/* Button */}
                             <div className="btn">
-                                <button className="main-btn main-color mr-5">Download CV</button>
-                                <button className="main-btn main-bg hover:text-white hover:bg-transparent">Let's Talk</button>
+                                <a href={CV}  download>
+                                    <button className="main-btn main-color mr-5">Download CV</button>
+                                </a>
+                                <a href="#contact">
+                                    <button className="main-btn main-bg hover:text-white hover:bg-transparent">Let's Talk</button>
+                                </a>
                             </div>
                         </div>
                         {/* Pic ------------------ */}
