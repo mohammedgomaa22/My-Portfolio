@@ -1,10 +1,21 @@
 import MainTitle from "./Main-title";
 import {HiOutlineMail} from "react-icons/hi";
 import {RiMessengerLine} from "react-icons/ri";
-import {AiOutlineWhatsApp} from "react-icons/ai";
+import { AiOutlineWhatsApp } from "react-icons/ai";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser'
 // ------------------------
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_jbcy47n', 'template_w6msn3j', form.current, 'k3mJRFA8CphnBkLfS');
+        
+        e.target.reset();
+    };
     return (
         <>
             <div id="contact" className="contact pb-24">
@@ -36,12 +47,12 @@ const Contact = () => {
                             </div>
                         </div>
                         {/* Form */}
-                        <div className="form md:px-16 flex-1 text-center lg:text-left duration-500">
+                        <form ref={form} onSubmit={sendEmail} className="form md:px-16 flex-1 text-center lg:text-left duration-500">
                             <input type="text" name="name" placeholder="Your Full Name" className="w-full p-4 mb-5 outline-none text-sky-400 font-semibold text-lg bg-transparent border-2 border-sky-800 rounded-md shadow-md focus:shadow-xl duration-300" />
                             <input type="email" name="email" placeholder="Your Email" className="w-full p-4 mb-5 outline-none text-sky-400 font-semibold text-lg bg-transparent border-2 border-sky-800 rounded-md shadow-md focus:shadow-xl duration-300" />
                             <textarea name="message" placeholder="Your Message" className="w-full h-40 max-h-60 p-4 outline-none text-sky-400 font-semibold text-lg bg-transparent border-2 border-sky-800 rounded-md shadow-md focus:shadow-xl duration-300"></textarea>
                             <button type="submit" className="main-btn main-bg w-fit hover:bg-transparent mt-3">Send Message</button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
