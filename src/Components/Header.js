@@ -1,4 +1,6 @@
 import "./header.css";
+import { AiFillLinkedin } from 'react-icons/ai';
+import { FaGithubSquare, FaFacebookSquare } from 'react-icons/fa';
 import CV from "../data/CV_MohammedGomaa.rar";
 // --------------------
 
@@ -34,13 +36,16 @@ const Header = () => {
                     {/* Social ------------------ */}
                     <div className="social w-fit flex flex-col justify-center items-center gap-2 absolute bottom-10 left-2 main-color">
                         <a className="linkedin text-xl hover:scale-150 duration-300" href="https://www.linkedin.com/in/mohammed-gomaa-09a31b221/" target="_blank">
-                            <i className="fab fa-linkedin"></i>
+                            {/* <i className="fab fa-linkedin"></i> */}
+                            <AiFillLinkedin />
                         </a>
                         <a className="github text-xl hover:scale-150 duration-300" href="https://github.com/mohammedgomaa22" target="_blank">
-                            <i className="fab fa-github-square"></i>
+                            {/* <i className="fab fa-github-square"></i> */}
+                            <FaGithubSquare />
                         </a>
                         <a className="facebook text-xl hover:scale-150 duration-300" href="https://www.facebook.com/mohammedgomaa2522/" target="_blank">
-                            <i className="fab fa-facebook-square"></i>
+                            {/* <i className="fab fa-facebook-square"></i> */}
+                            <FaFacebookSquare />
                         </a>
                         <div className="line h-9 w-0.5 main-bg"></div>
                     </div>
