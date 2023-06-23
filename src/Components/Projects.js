@@ -3,7 +3,7 @@ import Pro from "./Pro";
 import Teq from './Teq';
 import img1 from '../pic/pro/14- hajj.PNG';
 import img2 from '../pic/pro/2- ple.PNG';
-import img3 from '../pic/pro/3- maz.PNG';
+import img3 from '../pic/pro/3- team.PNG';
 import img4 from '../pic/pro/12- tamrini.PNG';
 import img5 from '../pic/pro/5- elz.PNG';
 import img6 from '../pic/pro/6- note.PNG';
@@ -25,8 +25,8 @@ let pre1 = "https://mohammedgomaa22.github.io/hajj/";
 let get1 = "https://github.com/mohammedgomaa22/hajj";
 let pre2 = "https://mohammedgomaa22.github.io/My-Second-Page/";
 let get2 = "https://github.com/mohammedgomaa22/My-Second-Page";
-let pre3 = "https://mohammedgomaa22.github.io/Mazzika-templete-3/";
-let get3 = "https://github.com/mohammedgomaa22/Mazzika-templete-3";
+let pre3 = "https://mohammedgomaa22.github.io/Team-Page/";
+let get3 = "https://github.com/mohammedgomaa22/Team-Page";
 let pre4 = "https://mohammedgomaa22.github.io/Tamrini/";
 let get4 = "https://github.com/mohammedgomaa22/dashboard-tamrini";
 let pre5 = "https://mohammedgomaa22.github.io/HTML-And-CSS-Template-5-M.G-/#";
@@ -55,7 +55,7 @@ const Projects = () => {
                         <Pro name="Portfolio" preLink={pre10} getLink={get10} img={img10} teq1={t1} teq2={t2} teq3={t3} />
                         <Pro name="Palestine" preLink={pre2} getLink={get2} img={img2} teq1={t1} teq2={t2} />
                         <Pro name="Tamrini" preLink={pre4} getLink={get4} img={img4} teq1={t1} teq2={t2} teq3={t3} teq4={t4} />
-                        <Pro name="Mazzika" preLink={pre3} getLink={get3} img={img3} teq1={t1} teq2={t2} />
+                        <Pro name="Team" preLink={pre3} getLink={get3} img={img3} teq1={t1} teq2={t2} />
                         <Pro name="Hajj" preLink={pre1} getLink={get1} img={img1} teq1={t1} teq2={t2} teq3={t3} teq4={t4} />
                         <Pro name="M|G" preLink={pre5} getLink={get5} img={img5} teq1={t1} teq2={t2} teq3={t3} />
                         <Pro name="Note" preLink={pre6} getLink={get6} img={img6} teq1={t1} teq2={t2} teq3={t3} />
