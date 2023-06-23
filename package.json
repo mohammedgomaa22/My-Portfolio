@@ -2,7 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/mohammedgomaa22/My-Portfolio.git",
+  "homepage": "https://mohammedgomaa22.github.io/My-Portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.5",
