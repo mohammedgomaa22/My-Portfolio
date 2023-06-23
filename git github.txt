@@ -1,3 +1,10 @@
+ npm run build 
+npm run deploy
+
+
 git add .
 git commit -m "message"
+
+git push origin main
+OR----
 git push origin main --force
